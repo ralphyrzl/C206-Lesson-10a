@@ -1,0 +1,16 @@
+## test_l10quiz.py
+
+import l10quiz
+
+def test_find_max_A():
+    max = l10quiz.find_max_in_list([1, 2, 3, 4, 5])
+    assert max == 5
+    
+def test_find_max_B():
+    max = l10quiz.find_max_in_list([-1, -2, -3, -4, -5])
+    assert max == -1
+
+def find_max_C():
+    max = l10quiz.find_max_in_list([5, 5, 5, 5])
+    assert max == 5
+
